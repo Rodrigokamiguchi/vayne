@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  /*background-color: #4541BF;*/
+}
+#site{
+  font-family:'Square Peg', cursive;
+  font-size: 1,9em;
+  color: #fff;
+}
+nav ul#menu{
+  background-color: #151826;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+}
+nav li{
+  display: inline;
+  line-height: 60px;
+}
+a:link, a:active{
+  font-size:1.9em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #5671A6;
+  padding: 22px;
+  text-shadow: 5px 5px #000000;
+}
+a:hover, a:visited{
+  background-color: #313759;
+  color: #000000;
+  text-shadow: 2px 2px #ffffff;
+}
+#banner{
+  background-image: url("../imagens/6.jpg");
+  width: 100%;
+  height: 740px;
+  background-size: cover;
+}
+h1{
+  font-size: 2.0em;
+  padding: 50px 0;
+  text-align: left:
+}
+.text{
+  font-family: 'Square Peg', cursive;
+}
+#gallery{
+  background-color: #313759;
+  height: 100vh;
+  padding: 25px;
+  font-size: 25px;
+  text-align: justify:
+}
+.galeria{
+  width: 300px;
+  margin: 15px;
+  border-radius: 10px;
+  border: 2px 5px 25px #ffffff;
+  box-shadow: 5px 5px 25px #000000;
+}
