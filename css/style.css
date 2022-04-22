@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
 body{
-  margin: 0;
-  padding: 0;
-  /*background-color: #4541BF;*/
+  font-family: 'Square Peg', cursive;
 }
 #site{
-  font-family:'Square Peg', cursive;
-  font-size: 1,9em;
-  color: #fff;
+  font-size: 1.9em;
+  color: #ffffff;
+}
+#about{
+  background-color: #5f49b8;
+  height: 100vh;
+  padding: 50px;
+  width: 100%;
+  font-size: 2.0em;
+  text-align: justify;
+  color: #000000;
+  text-shadow: 1px 1px 1px #ffffff;
 }
 nav ul#menu{
   background-color: #151826;
@@ -39,6 +46,10 @@ a:hover, a:visited{
   width: 100%;
   height: 740px;
   background-size: cover;
+  background-repeat: no-repeat center;
+  border-width: 2px;
+  border-style: double;
+  border-color: #ffffff;
 }
 h1{
   font-size: 2.0em;
