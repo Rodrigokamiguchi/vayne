@@ -1,21 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
 body{
   font-family: 'Square Peg', cursive;
 }
 #site{
   font-size: 1.9em;
   color: #ffffff;
-}
-#about{
-  background-color: #5f49b8;
-  height: 100vh;
-  padding: 50px;
-  width: 100%;
-  font-size: 2.0em;
-  text-align: justify;
-  color: #000000;
-  text-shadow: 1px 1px 1px #ffffff;
 }
 nav ul#menu{
   background-color: #151826;
@@ -34,12 +25,12 @@ a:link, a:active{
   text-decoration: none;
   color: #5671A6;
   padding: 22px;
-  text-shadow: 5px 5px #000000;
+  text-shadow: 1px 1px #000000;
 }
 a:hover, a:visited{
   background-color: #313759;
-  color: #000000;
-  text-shadow: 2px 2px #ffffff;
+  color: #ffffff;
+  text-shadow: 1px 1px #ffffff;
 }
 #banner{
   background-image: url("../imagens/6.jpg");
@@ -51,18 +42,34 @@ a:hover, a:visited{
   border-style: double;
   border-color: #ffffff;
 }
-h1{
-  font-size: 2.0em;
-  padding: 50px 0;
-  text-align: left:
+#about{
+  background-color: #5f49b8;
+  height: 100vh;
+  padding: 50px;
+  width: 100%;
+ /* font-size: 2.0em;
+  text-align: justify;
+  color: #000000;
+  text-shadow: 1px 1px 1px #ffffff;*/
 }
-.text{
-  font-family: 'Square Peg', cursive;
+h1{
+  font-size: 2em;
+  padding: 50px;
+  text-align: center;
+  color: #ffffff;
+  width:100%;
+}
+p{
+  font-size: 1em;
+  padding: 50px;
+  text-align: justify;
+  color:aqua;
+  width:100%;
 }
 #gallery{
   background-color: #313759;
   height: 100vh;
-  padding: 25px;
+  padding: 50px;
   font-size: 25px;
   text-align: justify:
 }
